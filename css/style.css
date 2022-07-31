@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid #000; */
+}
+/* Center Alignment */
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.header {
+  background-color: #f7f7f7;
+}
+.suraj-profile {
+  height: 50px;
+  width: 50px;
+  /* background-color: black; */
+}
+.suraj-profile img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.suraj-name {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.suraj-header {
+  display: flex;
+  /* margin-top: 8px; */
+  padding: 10px;
+  /* z-index: -10; */
+}
+.suraj-header a {
+  margin: 0px 8px;
+  text-decoration: none;
+  color: #141414;
+}
+
+#tw-1,
+#ig-1,
+#fb-1,
+#ln-1 {
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+  /* margin-right: 4px; */
+}
+#fb-1,
+#ln-1 {
+  height: 18px;
+  width: 18px;
+}
+.intro-suraj,
+.details-suraj {
+  padding: 10px 15px;
+}
+.intro-suraj-box {
+  height: 500px;
+  width: auto;
+  /* background: rgb(197, 55, 55); */
+  border: 1px solid #a8a7a7;
+  border-radius: 5px;
+}
+.details-suraj-box {
+  height: 500px;
+  width: auto;
+  /* background: #1baa52; */
+  border: 1px solid #a8a7a7;
+  border-radius: 5px;
+  padding: 20px 40px;
+  flex-flow: wrap;
+}
+.img-profile img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #929292;
+  border-radius: 50%;
+}
+.details-suraj-box .project-box {
+  height: 80px;
+  width: 140px;
+  border: 1px solid #000;
+  margin: 6px;
+}
