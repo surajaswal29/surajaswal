@@ -1,102 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suraj Aswal | Web Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Suraj Aswal">
 
-    <!-- bootstrap file -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
-    />
+    <title>Suraj Aswal | MERN Stack Developer | Web Developer</title>
 
-    <!-- CSS file -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/suraj.css">
+    
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row p-2 border-bottom header">
-        <div class="col-md-12 d-flex align-content-center">
-          <div class="suraj-profile">
-            <img
-              src="images/profile-avatar.png"
-              alt="Suraj Aswal Profile Avatar"
-            />
-          </div>
-          <div class="suraj-name d-center">
-            <!-- <h2>Suraj Aswal</h2> -->
-          </div>
-          <div class="suraj-header">
-            <a href="#" class="d-center">
-              <img
-                src="images/social/linkedin-b.png"
-                alt="Suraj Social Media"
-                class="img-fluid"
-                id="ln-1"
-              />
-              Linkedin</a
-            >
 
-            <a href="#" class="d-center">
-              <img
-                src="images/social/twitter-b.png"
-                alt="Suraj Social Media"
-                class="img-fluid"
-                id="tw-1"
-              />
-              Twitter</a
-            >
-            <a
-              href="https://github.com/surajaswal-dev"
-              class="d-center"
-              target="__blank"
-            >
-              <img
-                src="images/social/github-b.png"
-                alt="Suraj Social Media"
-                class="img-fluid"
-                id="tw-1"
-              />
-              Github</a
-            >
-          </div>
-          <div class="theme-btn"></div>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Suraj</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="row mt-2">
-        <div class="col-md-3 intro-suraj">
-          <div class="intro-suraj-box d-center">
-            <div class="img-profile">
-              <img
-                src="images/profile-avatar.png"
-                class="img-fluid"
-                alt="Suraj Aswal Profile"
-              />
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hello world, I'm Suraj Aswal</span>
+                        </h1>
+                        <small class="small-text">Front end | <span class="mobile-block">MERN Stack Developer</span></small>
+                        <p class="mt-2">Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/main.jpg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>Glimpse of Some of My Ceations</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Projects</h2>
+                    <div class="projects">
+                        <div class="project-box">
+                          <h4 class="text-light">
+                            <a href="https://examdesk.000webhostapp.com/index.php">Online Examination System <i class="uil uil-external-link-alt"></i></a>
+                          </h4>
+                          <p>
+                            A Robust Online Testing Platform For Conducting Remote Online Examinations
+                          </p>
+                          <div class="technology ">
+                            
+                          </div>
+                        </div>
+
+                        <div class="project-box">
+                          <h4 class="text-light">
+                            <a href="https://surajaswal-dev.github.io/Webdesign-projects/hnbgu-council-clubs/">College CLubs and Councils <i class="uil uil-external-link-alt"></i></a>
+                          </h4>
+                          <p>
+                            College Clubs and Councils Website
+                          </p>
+                          <div class="technology ">
+                            
+                          </div>
+                        </div>
+
+                        <div class="project-box">
+                          <h4 class="text-light">
+                            <a href="https://shillonglocalteermorning.in/">Shillong Local Teer <i class="uil uil-external-link-alt"></i></a>
+                          </h4>
+                          <p>
+                            Shillong Local Teer Bet CMS Website
+                          </p>
+                          <div class="technology ">
+                            
+                          </div>
+                        </div>
+                        <div class="project-box">
+                          <h4 class="text-light">
+                            <a href="https://surajaswal-dev.github.io/Webdesign-projects/shishufoundation/index.html">NGO: Shishu Foundation <i class="uil uil-external-link-alt"></i></a>
+                          </h4>
+                          <p>
+                            Shishu Foundation a NGO Website
+                          </p>
+                          <div class="technology ">
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                            <div class="timeline-wrapper">
+                              <div class="timeline-yr">
+                                  <span>2023</span>
+                              </div>
+                              <div class="timeline-info">
+                                  <h4><span>Master of Computer Application</span></h3>
+                                  <p><span class="board-badge text-light">University</span> Hemvati Nandan Bahuguna Garhwal University</p>
+                              </div>
+                        </div>
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2021</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h4><span>Bachelor of Computer Application</span></h3>
+                                  <p><span class="board-badge text-light">University</span> Hemvati Nandan Bahuguna Garhwal University</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2018</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h4><span>Intermediate (Mathematics, Science)</span></h3>
+                                <p><span class="board-badge text-light">School</span> Shri Guru Ram Rai School Bombay Bagh</p>                           </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2016</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h4><span>High School (Mathematics, Science)</span></h3>
+                                <p><span class="board-badge text-light">School</span> Shri Guru Ram Rai School Bombay Bagh</p>                           </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27565.28303908147!2d78.00880336761753!3d30.275256447739807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909296884c063cd%3A0x1ba7a06da0d4b64c!2sBanjarawala%2C%20Dehradun%2C%20Uttarakhand%20248001!5e0!3m2!1sen!2sin!4v1662531399732!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <p class="text-white"><i class="uil uil-location-point"></i> Banjarawala
+                    Dehradun, Uttarakhand 248001</p>
+                  <p class="footer-text mb-0"><i class="uil uil-phone"></i>+91-7535868150</p>
+                  <p><a href="mailto:surajaswal29@gmail.com"><i class="uil uil-message"></i>surajaswal29@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="#" class="uil uil-code" data-toggle="tooltip" data-placement="left" title="github"></a></li>
+                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                     <li><a href="#" class="uil uil-arrow-circle-up" data-toggle="tooltip" data-placement="left" title="Twitter"></a></li>
+                     <li><a href="#" class="uil uil-link" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
+                </ul>
             </div>
           </div>
-        </div>
-        <div class="col-md-9 details-suraj">
-          <div class="details-suraj-box d-center">
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
-            <div class="project-box">Project-1</div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
+
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Designed with <span style="color: red;">❤</span> by <a rel="nofollow" href="https://surajaswal.dev/">Suraj Aswal</a></p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
   </body>
 </html>
